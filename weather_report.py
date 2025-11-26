@@ -29,7 +29,7 @@ DEFAULT_CITY_NAME = "weather"
 
 # Configuration des logs avec loguru
 def setup_logging():
-    """Configure le dossier Logs et initialise loguru pour les logs."""
+   # Configure le dossier Logs et initialise loguru pour les logs.
     logs_dir = os.path.join(BASE_DIR, LOGS_DIR_NAME)
     
     # Création du dossier Logs s'il n'existe pas
@@ -511,3 +511,4 @@ def cli(city, country, api_key, no_display):
 
 if __name__ == "__main__":
     cli()
+
